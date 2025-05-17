@@ -108,12 +108,17 @@ public class MediaPlugin: CAPPlugin {
                     }
                     let ext = videoAsset.url.pathExtension
 
+            var originalFilename = "video"
+            if let resource = PHAssetResource.assetResources(for: asset).first {
+                originalFilename = (resource.originalFilename as NSString).deletingPathExtension
+            }
                     // Create path and save video data
-                    let fileURL = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask)[0].appendingPathComponent("video-\(Int.random(in: 0...100000)).\(ext)")
+                    let fileURL = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask)[0].appendingPathComponent("\(originalFilename).\(ext)")
                     do {
                         try videoData.write(to: fileURL)
                         var ret = JSObject()
-                        ret["identifier"] = identifier
+                        ret["identifier"] = identifier;
+                        ret["filename"] = originalFilename;
                         ret["path"] = fileURL.absoluteString
                         call.resolve(ret)
                     } catch {
@@ -441,6 +446,13 @@ public class MediaPlugin: CAPPlugin {
 
                 a["identifier"] = asset.localIdentifier
 
+                var originalFilename = "video"
+                if let resource = PHAssetResource.assetResources(for: asset).first {
+                    originalFilename = (resource.originalFilename as NSString).deletingPathExtension
+                }
+
+                a["filename"] = originalFilename
+
                 a["data"] = image.jpegData(compressionQuality: CGFloat(thumbnailQuality) / 100.0)?.base64EncodedString()
 
                 if asset.creationDate != nil {
@@ -453,6 +465,8 @@ public class MediaPlugin: CAPPlugin {
                 a["thumbnailHeight"] = image.size.height
                 a["location"] = self.makeLocation(asset)
                 a["type"] = asset.mediaType == .image ? "photo" : "video"
+
+
 
                 assets.append(a)
             })

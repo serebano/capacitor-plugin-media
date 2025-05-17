@@ -291,6 +291,7 @@ Code Examples: [basic](https://github.com/capacitor-community/media/blob/main/ex
 | Prop                  | Type                                                    | Description                                                             |
 | --------------------- | ------------------------------------------------------- | ----------------------------------------------------------------------- |
 | **`identifier`**      | <code>string</code>                                     | Platform-specific identifier                                            |
+| **`filename`**        | <code>string</code>                                     | Original filename                                                       |
 | **`data`**            | <code>string</code>                                     | Data for a photo asset as a base64 encoded string (JPEG only supported) |
 | **`creationDate`**    | <code>string</code>                                     | ISO date string for creation date of asset                              |
 | **`duration`**        | <code>number</code>                                     | Duration of asset in seconds, only returned for videos                  |
@@ -339,6 +340,7 @@ Code Examples: [basic](https://github.com/capacitor-community/media/blob/main/ex
 | ---------------- | ------------------- | -------------------------- |
 | **`path`**       | <code>string</code> | Path to media asset        |
 | **`identifier`** | <code>string</code> | Identifier for media asset |
+| **`filename`**   | <code>string</code> | Original filename          |
 
 
 #### MediaAlbumResponse

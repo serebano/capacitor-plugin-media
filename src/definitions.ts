@@ -33,7 +33,7 @@ export interface MediaPlugin {
    *
    * [Code Examples](https://github.com/capacitor-community/media/blob/main/example/src/components/GetMedias.tsx)
    */
-  getMediaByIdentifier(options?: {identifier: string}): Promise<MediaPath>;
+  getMediaByIdentifier(options?: { identifier: string }): Promise<MediaPath>;
   /**
    * Get list of albums.
    *
@@ -171,6 +171,10 @@ export interface MediaAsset {
    */
   identifier: string;
   /**
+   * Original filename
+   */
+  filename: string;
+  /**
    * Data for a photo asset as a base64 encoded string (JPEG only supported)
    */
   data: string;
@@ -213,6 +217,10 @@ export interface MediaPath {
    * Identifier for media asset
    */
   identifier: string;
+  /**
+   * Original filename
+   */
+  filename: string;
 }
 
 export interface MediaLocation {
