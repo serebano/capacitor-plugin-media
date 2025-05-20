@@ -1,6 +1,6 @@
 {
   "name": "@serebano/capacitor-plugin-media",
-  "version": "8.0.2",
+  "version": "8.0.3",
   "description": "Capacitor plugin for saving and retrieving photos and videos, and managing photo albums.",
   "license": "MIT",
   "main": "dist/plugin.cjs.js",
@@ -9,6 +9,11 @@
   "unpkg": "dist/plugin.js",
   "publishConfig": {
     "access": "public"
+  },
+  "author": {
+    "name": "Sergiu Toderascu",
+    "email": "mr.serebano@gmail.com",
+    "url": "https://github.com/serebano"
   },
   "files": [
     "android/src/main/",
@@ -81,7 +86,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/serebano/capacitor-plugin-media"
+    "url": "https://github.com/serebano/capacitor-plugin-media.git"
   },
   "bugs": {
     "url": "https://github.com/serebano/capacitor-plugin-media/issues"
