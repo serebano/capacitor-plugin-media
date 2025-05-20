@@ -1,8 +1,7 @@
 {
   "name": "@serebano/capacitor-plugin-media",
-  "version": "8.0.1",
+  "version": "8.0.2",
   "description": "Capacitor plugin for saving and retrieving photos and videos, and managing photo albums.",
-  "author": "Nisala Kalupahana",
   "license": "MIT",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -13,7 +12,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorCommunityMedia.podspec"
+    "SerebanoCapacitorPluginMedia.podspec"
   ],
   "keywords": [
     "capacitor",
@@ -21,7 +20,9 @@
     "native",
     "photo",
     "video",
-    "albums"
+    "albums",
+    "web",
+    "pwa"
   ],
   "scripts": {
     "verify": "npm run verify:ios && npm run verify:android && npm run verify:web",
@@ -42,22 +43,22 @@
     "contributors:gen": "all-contributors generate"
   },
   "devDependencies": {
-    "@capacitor/android": "^7.0.1",
-    "@capacitor/cli": "^7.0.1",
-    "@capacitor/core": "^7.0.1",
+    "@capacitor/android": "^7.2.0",
+    "@capacitor/cli": "^7.2.0",
+    "@capacitor/core": "^7.2.0",
     "@capacitor/docgen": "^0.3.0",
-    "@capacitor/ios": "^7.0.1",
+    "@capacitor/ios": "^7.2.0",
     "@ionic/eslint-config": "^0.4.0",
     "@ionic/prettier-config": "^4.0.0",
     "@ionic/swiftlint-config": "^2.0.0",
-    "all-contributors-cli": "^6.20.0",
-    "eslint": "^8.57.0",
-    "prettier": "^3.4.2",
-    "prettier-plugin-java": "^2.6.6",
+    "all-contributors-cli": "^6.26.1",
+    "eslint": "^9.27.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-java": "^2.6.7",
     "rimraf": "^6.0.1",
-    "rollup": "^4.30.1",
+    "rollup": "^4.41.0",
     "swiftlint": "^2.0.0",
-    "typescript": "~4.1.5"
+    "typescript": "~5.8.3"
   },
   "peerDependencies": {
     "@capacitor/core": ">=7.0.0"
@@ -77,9 +78,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/capacitor-community/media"
+    "url": "https://github.com/serebano/capacitor-plugin-media"
   },
   "bugs": {
-    "url": "https://github.com/capacitor-community/media/issues"
+    "url": "https://github.com/serebano/capacitor-plugin-media/issues"
   }
 }
