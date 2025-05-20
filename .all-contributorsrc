@@ -1,6 +1,6 @@
 {
-  "projectName": "media",
-  "projectOwner": "capacitor-community",
+  "projectName": "capacitor-plugin-media",
+  "projectOwner": "serebano",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": ["README.md"],
@@ -106,6 +106,13 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/47331776?v=4",
       "profile": "https://github.com/samurm",
       "contributions": ["code"]
+    },
+    {
+      "login": "serebano",
+      "name": "Sergiu Toderascu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1105775?v=4",
+      "profile": "https://github.com/serebano",
+      "contributions": ["code", "maintenance", "platform"]
     }
   ],
   "contributorsPerLine": 5

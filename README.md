@@ -1,18 +1,18 @@
 <p align="center"><br><img src="https://user-images.githubusercontent.com/236501/85893648-1c92e880-b7a8-11ea-926d-95355b8175c7.png" width="128" height="128" /></p>
 <h3 align="center">Capacitor Media</h3>
-<p align="center"><strong><code>@capacitor-community/media</code></strong></p>
+<p align="center"><strong><code>@serebano/capacitor-plugin-media</code></strong></p>
 <p align="center">
   Capacitor plugin for saving and retrieving photos and videos, and managing photo albums.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/maintenance/yes/2025?style=flat-square" />
-  <a href="https://www.npmjs.com/package/@capacitor-community/media"><img src="https://img.shields.io/npm/l/@capacitor-community/media?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/@serebano/capacitor-plugin-media"><img src="https://img.shields.io/npm/l/@serebano/capacitor-plugin-media?style=flat-square" /></a>
 <br>
-  <a href="https://www.npmjs.com/package/@capacitor-community/media"><img src="https://img.shields.io/npm/dw/@capacitor-community/media?style=flat-square" /></a>
-  <a href="https://www.npmjs.com/package/@capacitor-community/media"><img src="https://img.shields.io/npm/v/@capacitor-community/media?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/@serebano/capacitor-plugin-media"><img src="https://img.shields.io/npm/dw/@serebano/capacitor-plugin-media?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/@serebano/capacitor-plugin-media"><img src="https://img.shields.io/npm/v/@serebano/capacitor-plugin-media?style=flat-square" /></a>
   <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<a href="#contributors"><img src="https://img.shields.io/badge/all%20contributors-14-orange?style=flat-square" /></a>
+<a href="#contributors"><img src="https://img.shields.io/badge/all%20contributors-15-orange?style=flat-square" /></a>
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 </p>
@@ -27,7 +27,7 @@
 ## Installation
 
 ```bash
-npm install @capacitor-community/media
+npm install @serebano/capacitor-plugin-media
 ```
 
 This plugin is currently maintained for Capacitor 7 (plugin version 8). Add an `@7` at the end to install for Capacitor 6. There are currently no API changes between these two versions, so if you're migrating from plugin v7 to v8 (Capacitor 6 to 7), no code changes should be required.
@@ -425,24 +425,25 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="20%"><a href="https://twitter.com/stewones"><img src="https://avatars1.githubusercontent.com/u/719763?v=4?s=75" width="75px;" alt="stewones"/><br /><sub><b>stewones</b></sub></a><br /><a href="https://github.com/capacitor-community/media/commits?author=stewones" title="Code">💻</a> <a href="https://github.com/capacitor-community/media/commits?author=stewones" title="Documentation">📖</a> <a href="#maintenance-stewones" title="Maintenance">🚧</a></td>
-      <td align="center" valign="top" width="20%"><a href="https://github.com/zakton5"><img src="https://avatars1.githubusercontent.com/u/7013396?v=4?s=75" width="75px;" alt="Zachary Keeton"/><br /><sub><b>Zachary Keeton</b></sub></a><br /><a href="https://github.com/capacitor-community/media/commits?author=zakton5" title="Code">💻</a></td>
-      <td align="center" valign="top" width="20%"><a href="https://github.com/pgrimaud"><img src="https://avatars.githubusercontent.com/u/1866496?v=4?s=75" width="75px;" alt="Pierre Grimaud"/><br /><sub><b>Pierre Grimaud</b></sub></a><br /><a href="https://github.com/capacitor-community/media/commits?author=pgrimaud" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://twitter.com/stewones"><img src="https://avatars1.githubusercontent.com/u/719763?v=4?s=75" width="75px;" alt="stewones"/><br /><sub><b>stewones</b></sub></a><br /><a href="https://github.com/serebano/capacitor-plugin-media/commits?author=stewones" title="Code">💻</a> <a href="https://github.com/serebano/capacitor-plugin-media/commits?author=stewones" title="Documentation">📖</a> <a href="#maintenance-stewones" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/zakton5"><img src="https://avatars1.githubusercontent.com/u/7013396?v=4?s=75" width="75px;" alt="Zachary Keeton"/><br /><sub><b>Zachary Keeton</b></sub></a><br /><a href="https://github.com/serebano/capacitor-plugin-media/commits?author=zakton5" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/pgrimaud"><img src="https://avatars.githubusercontent.com/u/1866496?v=4?s=75" width="75px;" alt="Pierre Grimaud"/><br /><sub><b>Pierre Grimaud</b></sub></a><br /><a href="https://github.com/serebano/capacitor-plugin-media/commits?author=pgrimaud" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="20%"><a href="https://www.kuau.com.br/"><img src="https://avatars.githubusercontent.com/u/14003158?v=4?s=75" width="75px;" alt="Talles Alves"/><br /><sub><b>Talles Alves</b></sub></a><br /><a href="#maintenance-tallesventura" title="Maintenance">🚧</a></td>
       <td align="center" valign="top" width="20%"><a href="https://www.zyadyasser.net/"><img src="https://avatars.githubusercontent.com/u/38470992?v=4?s=75" width="75px;" alt="Zyad Yasser"/><br /><sub><b>Zyad Yasser</b></sub></a><br /><a href="#maintenance-zyad-yasser" title="Maintenance">🚧</a></td>
     </tr>
     <tr>
-      <td align="center" valign="top" width="20%"><a href="https://github.com/dragermrb"><img src="https://avatars.githubusercontent.com/u/11479696?v=4?s=75" width="75px;" alt="Manuel Rodríguez"/><br /><sub><b>Manuel Rodríguez</b></sub></a><br /><a href="https://github.com/capacitor-community/media/commits?author=dragermrb" title="Code">💻</a> <a href="#maintenance-dragermrb" title="Maintenance">🚧</a></td>
-      <td align="center" valign="top" width="20%"><a href="https://github.com/Gr1zlY"><img src="https://avatars.githubusercontent.com/u/195971?v=4?s=75" width="75px;" alt="Michael"/><br /><sub><b>Michael</b></sub></a><br /><a href="https://github.com/capacitor-community/media/commits?author=Gr1zlY" title="Code">💻</a></td>
-      <td align="center" valign="top" width="20%"><a href="https://linkedin.com/in/nisala"><img src="https://avatars.githubusercontent.com/u/7347290?v=4?s=75" width="75px;" alt="Nisala Kalupahana"/><br /><sub><b>Nisala Kalupahana</b></sub></a><br /><a href="https://github.com/capacitor-community/media/commits?author=nkalupahana" title="Code">💻</a> <a href="https://github.com/capacitor-community/media/commits?author=nkalupahana" title="Documentation">📖</a> <a href="#example-nkalupahana" title="Examples">💡</a> <a href="#maintenance-nkalupahana" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/dragermrb"><img src="https://avatars.githubusercontent.com/u/11479696?v=4?s=75" width="75px;" alt="Manuel Rodríguez"/><br /><sub><b>Manuel Rodríguez</b></sub></a><br /><a href="https://github.com/serebano/capacitor-plugin-media/commits?author=dragermrb" title="Code">💻</a> <a href="#maintenance-dragermrb" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/Gr1zlY"><img src="https://avatars.githubusercontent.com/u/195971?v=4?s=75" width="75px;" alt="Michael"/><br /><sub><b>Michael</b></sub></a><br /><a href="https://github.com/serebano/capacitor-plugin-media/commits?author=Gr1zlY" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://linkedin.com/in/nisala"><img src="https://avatars.githubusercontent.com/u/7347290?v=4?s=75" width="75px;" alt="Nisala Kalupahana"/><br /><sub><b>Nisala Kalupahana</b></sub></a><br /><a href="https://github.com/serebano/capacitor-plugin-media/commits?author=nkalupahana" title="Code">💻</a> <a href="https://github.com/serebano/capacitor-plugin-media/commits?author=nkalupahana" title="Documentation">📖</a> <a href="#example-nkalupahana" title="Examples">💡</a> <a href="#maintenance-nkalupahana" title="Maintenance">🚧</a></td>
       <td align="center" valign="top" width="20%"><a href="https://rdlabo.jp/"><img src="https://avatars.githubusercontent.com/u/9690024?v=4?s=75" width="75px;" alt="Masahiko Sakakibara"/><br /><sub><b>Masahiko Sakakibara</b></sub></a><br /><a href="#maintenance-rdlabo" title="Maintenance">🚧</a></td>
-      <td align="center" valign="top" width="20%"><a href="https://ha6-6ru.hatenablog.com/"><img src="https://avatars.githubusercontent.com/u/20640973?v=4?s=75" width="75px;" alt="ha6-6ru"/><br /><sub><b>ha6-6ru</b></sub></a><br /><a href="https://github.com/capacitor-community/media/commits?author=ha6-6ru" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://ha6-6ru.hatenablog.com/"><img src="https://avatars.githubusercontent.com/u/20640973?v=4?s=75" width="75px;" alt="ha6-6ru"/><br /><sub><b>ha6-6ru</b></sub></a><br /><a href="https://github.com/serebano/capacitor-plugin-media/commits?author=ha6-6ru" title="Code">💻</a></td>
     </tr>
     <tr>
-      <td align="center" valign="top" width="20%"><a href="http://www.mrfischer.de/"><img src="https://avatars.githubusercontent.com/u/2657649?v=4?s=75" width="75px;" alt="Stephan Fischer"/><br /><sub><b>Stephan Fischer</b></sub></a><br /><a href="https://github.com/capacitor-community/media/commits?author=stephan-fischer" title="Code">💻</a></td>
-      <td align="center" valign="top" width="20%"><a href="https://www.mtda.me/"><img src="https://avatars.githubusercontent.com/u/2229994?v=4?s=75" width="75px;" alt="Matheus Davidson"/><br /><sub><b>Matheus Davidson</b></sub></a><br /><a href="https://github.com/capacitor-community/media/commits?author=matheusdavidson" title="Code">💻</a> <a href="https://github.com/capacitor-community/media/commits?author=matheusdavidson" title="Documentation">📖</a></td>
-      <td align="center" valign="top" width="20%"><a href="https://github.com/mauricewegner"><img src="https://avatars.githubusercontent.com/u/53715854?v=4?s=75" width="75px;" alt="Maurice Wegner"/><br /><sub><b>Maurice Wegner</b></sub></a><br /><a href="https://github.com/capacitor-community/media/commits?author=mauricewegner" title="Code">💻</a></td>
-      <td align="center" valign="top" width="20%"><a href="https://github.com/samurm"><img src="https://avatars.githubusercontent.com/u/47331776?v=4?s=75" width="75px;" alt="Samuel Ramos Muñoz"/><br /><sub><b>Samuel Ramos Muñoz</b></sub></a><br /><a href="https://github.com/capacitor-community/media/commits?author=samurm" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="http://www.mrfischer.de/"><img src="https://avatars.githubusercontent.com/u/2657649?v=4?s=75" width="75px;" alt="Stephan Fischer"/><br /><sub><b>Stephan Fischer</b></sub></a><br /><a href="https://github.com/serebano/capacitor-plugin-media/commits?author=stephan-fischer" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://www.mtda.me/"><img src="https://avatars.githubusercontent.com/u/2229994?v=4?s=75" width="75px;" alt="Matheus Davidson"/><br /><sub><b>Matheus Davidson</b></sub></a><br /><a href="https://github.com/serebano/capacitor-plugin-media/commits?author=matheusdavidson" title="Code">💻</a> <a href="https://github.com/serebano/capacitor-plugin-media/commits?author=matheusdavidson" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/mauricewegner"><img src="https://avatars.githubusercontent.com/u/53715854?v=4?s=75" width="75px;" alt="Maurice Wegner"/><br /><sub><b>Maurice Wegner</b></sub></a><br /><a href="https://github.com/serebano/capacitor-plugin-media/commits?author=mauricewegner" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/samurm"><img src="https://avatars.githubusercontent.com/u/47331776?v=4?s=75" width="75px;" alt="Samuel Ramos Muñoz"/><br /><sub><b>Samuel Ramos Muñoz</b></sub></a><br /><a href="https://github.com/serebano/capacitor-plugin-media/commits?author=samurm" title="Code">💻</a></td>
+      <td align="center" valign="top" width="20%"><a href="https://github.com/serebano"><img src="https://avatars.githubusercontent.com/u/1105775?v=4?s=75" width="75px;" alt="Sergiu Toderascu"/><br /><sub><b>Sergiu Toderascu</b></sub></a><br /><a href="https://github.com/serebano/capacitor-plugin-media/commits?author=serebano" title="Code">💻</a> <a href="#maintenance-serebano" title="Maintenance">🚧</a> <a href="#platform-serebano" title="Packaging/porting to new platform">📦</a></td>
     </tr>
   </tbody>
 </table>
